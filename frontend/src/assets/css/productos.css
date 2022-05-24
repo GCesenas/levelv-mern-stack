@@ -1,0 +1,37 @@
+body,
+.modal-header,
+.modal-footer {
+    background-color: #011526;
+}
+
+.card,
+.modal-body {
+    color: white;
+    background-image: linear-gradient(to top, #18163f 0%, #160e41 100%);
+}
+
+.card-header {
+    background-color: #18163f;
+}
+
+.card-title,
+.modal-header {
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.img-mod {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img-prod:hover {
+    opacity: 80%;
+}

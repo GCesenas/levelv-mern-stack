@@ -1,0 +1,546 @@
+.inicio, .centrohome{
+  width: 100% !important;
+    height: 100vh;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    margin: 0 !important;
+}
+
+.equipo {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+}
+
+.inicio {
+  background-color: #011526;
+  background-image: linear-gradient(180deg, #011526 0%, #011526 50%, #080808 100%); 
+}
+
+.principal {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont-principal {
+  display: table;
+  top: 0;
+  left: 0;
+  height: 110%;
+  width: 100%;
+}
+
+.centro {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cont-int {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  align-items: center;
+}
+
+.titulo1 {
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 3.5rem;
+}
+
+.texto-inicio {
+  width: 80%;
+  font-family: "Cabin", sans-serif;
+  color: white;
+}
+
+.img-inicio {
+  width: 27rem;
+  transform: rotate(20deg);
+}
+
+.btn1 {
+  transition: 0.5s;
+  background-color: none !important;
+  border: 1px solid #6d23e3;
+  color: #6d23e3;
+  border-radius: 2px;
+  padding: 0.4rem;
+  text-decoration: none;
+}
+
+.nomrg {
+  margin-left: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn1:hover {
+  transition: 0.5s;
+  color: #461792;
+  border: 1px solid #461792;
+}
+
+/* SECCIÓN NOSOTROS */
+
+.acercade {
+  background-image: url("../images/bg.png");
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.titulosec {
+    margin-top: 0;
+    padding-top: 7rem;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.titulosec2 {
+  font-size: 3rem;
+  margin-top: 0;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.titulosec3 {
+  font-size: 2rem;
+  margin-top: 0;
+  color: rgb(154, 100, 216);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.logo-acerca {
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-top: -5rem !important;
+}
+
+.cont-info {
+  width: 20rem;
+}
+
+.info {
+  font-family: "Cabin", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imginfo {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 0.4rem;
+}
+
+.imgtit {
+    display: flex;
+    align-items: center;
+}
+
+.tit {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.desc-info {
+    font-family: "Cabin", sans-serif;
+    color: rgb(154, 100, 216);
+}
+
+.centro {
+  text-align: center;
+  display: block;
+
+}
+
+/* Sección equipo */
+
+.nom {
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+}
+
+.txtp {
+  font-family: 'Cabin', sans-serif;
+  color: rgb(154, 100, 216);
+}
+
+/* SECCIÓN CONTACTO */
+
+.contacto {
+  background-image: url("../images/bg.png");
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.form {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.info-contacto-form {
+  background-image: linear-gradient(to top, #251362ea  0%, #371875 100%);
+  position: relative
+}
+
+form {
+  padding: 2.3rem 2.2rem;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+}
+
+::placeholder {
+  color: #8f54ee;
+}
+
+.title2 {
+  color: #461792;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.7rem
+}
+
+.title3 {
+  color: white;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.7rem
+}
+
+.contenedor-input {
+  position: relative;
+  margin: 1rem 0
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #fafafa;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  transition: 0.3s
+}
+
+textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 4px;
+  resize: none;
+  overflow-y: auto
+}
+
+.contenedor-input label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  padding: 0 0.4rem;
+  color: #fafafa;
+  font-size: 0.9rem;
+  font-weight: 400;
+  pointer-events: none;
+  z-index: 1000;
+  transition: 0.5s
+}
+
+.contenedor-input.textarea label {
+  top: 1rem;
+  transform: translateY(0)
+}
+
+.btnenviar {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #461792;
+  line-height: 1;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0
+}
+
+.btnenviar:hover {
+  background-color: transparent;
+  color: #fff
+}
+
+.contenedor-input span {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+  color: transparent;
+  pointer-events: none;
+  z-index: 500
+}
+
+.contenedor-input span:before {
+  left: 50%
+}
+
+.contenedor-input span:after {
+  right: 50%
+}
+
+.contenedor-input.focus label {
+  top: 0;
+  transform: translateY(-50%);
+  left: 25px;
+  font-size: 0.8rem
+}
+
+.contenedor-input.focus span:before,
+.contenedor-input.focus span:after {
+  width: 50%;
+  opacity: 1
+}
+
+.info-contacto {
+  padding: 2.3rem 2.2rem;
+  position: relative
+}
+
+.text2 {
+  font-family: "Cabin", sans-serif;
+  color: #333;
+  margin: 1.5rem 0 2rem 0
+}
+
+.text3 {
+  font-family: "Cabin", sans-serif;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.social-information {
+  display: flex;
+  color: #555;
+  margin: 0.7rem 0;
+  align-items: center;
+  font-size: 0.95rem
+}
+
+.icon {
+  width: 28px;
+  margin-right: 0.7rem
+}
+
+.social-media {
+  padding: 2rem 0 0 0
+}
+
+.social-media p {
+  color: #333
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 43px;
+  background: #461792;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 0.5rem;
+  transition: 0.3s
+}
+
+.social-icons a:hover {
+  transform: scale(1.05)
+}
+
+.square {
+  position: absolute;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(181%, 11%);
+  opacity: 0.2
+}
+
+@media (max-width: 850px) {
+  .form {
+      grid-template-columns: 1fr
+  }
+
+  .info-contacto:before {
+      bottom: initial;
+      top: -75px;
+      right: 65px;
+      transform: scale(0.95)
+  }
+
+  .info-contacto-form:before {
+      top: -13px;
+      left: initial;
+      right: 70px
+  }
+
+  .square {
+      transform: translate(140%, 43%);
+      height: 350px
+  }
+
+  .big-circle {
+      bottom: 75%;
+      transform: scale(0.9) translate(-40%, 30%);
+      right: 50%
+  }
+
+  .text {
+      margin: 1rem 0 1.5rem 0
+  }
+
+  .social-media {
+      padding: 1.5rem 0 0 0
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      padding: 1.5rem
+  }
+
+  .info-contacto:before {
+      display: none
+  }
+
+  .square,
+  .big-circle {
+      display: none
+  }
+
+  form,
+  .info-contacto {
+      padding: 1.7rem 1.6rem
+  }
+
+  .text,
+  .social-information,
+  .social-media p {
+      font-size: 0.8rem
+  }
+
+  .title {
+      font-size: 1.15rem
+  }
+
+  .social-icons a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px
+  }
+
+  .icon {
+      width: 23px
+  }
+
+  .input {
+      padding: 0.45rem 1.2rem
+  }
+
+  .btn {
+      padding: 0.45rem 1.2rem
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .principal {
+    display: block;
+  }
+
+  .titulo1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .texto-inicio {
+    font-size: 0.6rem;
+    margin-right: 0 !important;
+  }
+
+  .img-inicio {
+    display: none;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .principal {
+    padding: 0 !important;
+  }
+
+  .titulos {
+    margin-bottom: 3rem !important;
+  }
+
+  .acerca-logo {
+    text-align: center;
+  }
+
+  .titulosec {
+    padding-top: 3rem;
+  }
+
+  .imginfo {
+    width: 20%;
+    height: 20%;
+  }
+
+  .tit {
+    font-size: 2rem;
+  }
+
+  .acercade {
+    height: 100%;
+  }
+  
+  .desc-info {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+}

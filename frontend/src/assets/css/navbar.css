@@ -1,0 +1,118 @@
+@media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  
+  
+  .dropdown-menu {
+    background-color: black !important;
+  }
+  
+  .dropdown-item, .nav-link {
+    font-family: "Cabin", sans-serif;
+    color: rgb(184, 184, 184) !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #080808 !important;
+  }
+  
+  .nav-link { 
+    color: white !important;
+  }
+
+  .nav-link:hover { 
+    color:rgb(184, 184, 184) !important;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  nav ul li:hover {
+    background-color: none !important;
+  }
+
+.navinicio {
+  transition: 0.5s !important;
+  background-color: none !important;
+  transition: 0.5s;
+  }
+
+.navinicio.active {
+  transition: 0.5s;
+  background-color: #0a091b !important;
+}
+  
+  .navcolor {
+    transition: 0.5s !important;
+    background-color: #0a091b !important;
+  }
+  
+  .logo {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .txtlogo {
+      display: hidden;
+  }
+  
+  .navlogo {
+      display: inline-block;
+      vertical-align: middle;
+    width: 5rem;
+    margin-left: 1rem;
+  }
+
+  .nav-icon {
+    font-size: 1.1rem;
+    margin: auto;
+  }
+
+  .enlace {
+    font-family: "Cabin", sans-serif;
+  }
+  
+  .enlace:hover {
+    background-color: none !important;
+  }

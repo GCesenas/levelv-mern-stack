@@ -1,0 +1,30 @@
+.irarriba {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #6d23e3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    visibility: hidden;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s !important;
+    transition: all 500ms ease !important;
+    z-index: 999;
+  }
+  
+.irarribagif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+  }
+  
+.irarriba.mostrar {
+    opacity: 1;
+    visibility: visible;
+  }

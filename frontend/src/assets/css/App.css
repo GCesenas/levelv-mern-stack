@@ -1,0 +1,894 @@
+
+/* Copyright 2021 | LEVEL V */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* ESTILOS GENERALES */
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+nav ul li:hover {
+  background-color: none !important;
+}
+
+#btn-arriba {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #010c16;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+  visibility: hidden;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s !important;
+  transition: all 500ms ease !important;
+  z-index: 999;
+}
+
+.irarribagif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  height: 40px;
+}
+
+#btn-arriba.mostrar {
+  opacity: 1;
+  visibility: visible;
+}
+
+.productos-slide {
+  margin-top: 5rem;
+}
+
+/* ENCABEZADO */
+
+.nav-inicio {
+  transition: 0.5s;
+  background-color: rgba(0, 0, 255, 0);
+  box-shadow: none !important;
+}
+
+.dark {
+  transition: 0.5s;
+  background-color: #011526 !important;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.txtlogo {
+    display: hidden;
+}
+
+.navlogo {
+    display: inline-block;
+    vertical-align: middle;
+  width: 5rem;
+  margin-left: 1rem;
+}
+
+.enlace {
+  font-family: "Cabin", sans-serif;
+}
+
+.enlace:hover {
+  background-color: none !important;
+}
+
+.linea {
+  border-top: .3em solid #fff;
+  height: 2px;
+  max-width: 70%;
+  padding: 0;
+  margin: 1em auto 1em auto;
+}
+
+body {
+  background-image: url("../images/bg.png");
+  background-size: cover; 
+}
+
+/* SECCIÓN INICIO */
+
+.nav-btn {
+  margin: auto .2rem !important;
+}
+
+.homeContainer {  
+  background-image: url("../images/bg.png");
+  background-size: contain;
+}
+
+.inicio {
+  height: 100vh;
+}
+
+.cont-principal {
+  display: table;
+  top: 1em;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.centro {
+  padding: 5em;
+}
+
+.cont-int {
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  align-items: center;
+}
+
+.titulo1 {
+  font-size: 3.7em;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.texto-inicio {
+  width: 80%;
+  font-family: "Cabin", sans-serif;
+  color: white;
+}
+
+.img-inicio {
+  transform: rotate(20deg);
+}
+
+.btn1 {
+  transition: 0.5s;
+  margin-top: 1rem !important;
+  background-color: none !important;
+  border: 1px solid #0b5ca3;
+  color: #0b5ca3;
+  border-radius: 2px;
+  padding: 0.4rem;  
+}
+
+.btn1:hover {
+  transition: 0.5s;
+  color: #2e88d6;
+  border: 1px solid #3491e2;
+}
+
+/* SECCIÓN NOSOTROS */
+
+.titulosec {
+  font-size: 3em;
+    margin-top: 2em;
+    margin-bottom: 1.3em;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+}
+
+.titulosec-2 {
+  font-size: 3em;
+  margin-top: -1em;
+  margin-bottom: 1.5em;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.titulosec-3 {
+  font-size: 3em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.logoacerca {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+.cont-info {
+  margin: auto;
+  padding: 2.5em;
+}
+
+.info {
+  padding: 3em;  
+}
+
+.imginfo {
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+}
+
+.imgtit {
+    display: flex;
+    align-items: center;
+}
+
+.tit {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.desc-info {
+    font-family: "Cabin", sans-serif;
+    color: white;
+}
+
+/* Equipo */
+
+.container.fluid {
+  padding: 3em !important;
+}
+
+/* Contacto Form */
+
+.contacto-form {
+  background-color: #222427;
+  margin: 5em;
+  padding: 5em;
+  margin-bottom: 6rem;
+  border-radius: 5px;
+}
+
+.login-form {
+  margin: auto;
+  text-align: center;
+  padding: 6em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.376);
+  background: #0f0c2994;  /* fallback for old browsers */
+}
+
+.login-form > .btn {
+  margin: auto;
+}
+
+.contacto-form > button {
+  margin: 2em;
+}
+
+/* Footer */
+
+.logo-footer {
+  margin: auto;
+  width: 18rem;
+}
+
+.site-footer {
+  background-color: #0a091b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #888888;  
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #888888;
+}
+.site-footer a:hover {
+  color: #fff;
+  text-decoration: none;
+} 
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #888888;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: none;
+} 
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #6d23e3;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+} 
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+} 
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+/* Formularios */
+
+.img-form{
+  padding-bottom: 5em;
+}
+
+/* NavDah */
+
+.nav-dash {
+  margin: -2rem auto !important;
+}
+
+.drop-btn {
+  z-index: 99;
+}
+
+/* Menu de Opciones */
+
+.c-menu {
+  transition: 0.3s;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem;
+  background-image: linear-gradient(to top, #18163f 0%, #160e41 100%);
+}
+
+.c-menu:hover {
+  transition: 0.3s;
+  padding: 1rem;
+}
+
+.c-menu:active {  
+  padding: 2rem;
+  background-image: linear-gradient(to top, #160e41 0%, #160e41 100%);
+}
+
+.c-title {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bolder;  
+}
+
+.menu-title {
+  font-size: 3rem ;
+  font-family: "Cabin", sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.c-link {
+  text-decoration: none;
+}
+
+.c-link:hover {
+  text-decoration: none;
+}
+
+.card-img {
+  padding: 1rem;
+}
+
+.saludo-mm {
+  color: #fff;
+}
+
+.logout-btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logout-btn:hover {
+  transition: 0.3s;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Dashboard */
+
+.sidenav {
+  padding: .5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to top, #251362ea  0%, #371875 100%);
+}
+
+.sidenav > ul > li {
+  transition: 0.1s;
+  color: #fff;
+  list-style: none;
+  margin-left: -1rem;
+  margin-top: 1.5rem;
+}
+
+.sidenav > ul > li > a {
+  transition: 0.3s;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.sidenav > ul > li:hover {
+  transition: 0.3s;
+  padding-left: 1rem;
+}
+
+.sidenav > ul > li::after {
+  padding-left: 1rem;
+}
+
+.d-title-nav {
+  color: #fff !important;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.d-title > img {
+  color: #fff;
+  margin: .5rem 2rem;
+}
+
+.d-title-2 {
+  color: #fff;
+}
+
+.d-line {
+  background-color: #fff;
+  height: 1px;
+  max-width: 95%;
+  padding: 0;
+  margin: .5em auto 1em auto;
+}
+
+.d-line-s {
+  background-color: #fff;
+  height: 1px;
+  padding: 0;
+  margin: 2em auto 1em -2em;
+}
+
+/* User Info */
+
+.u-info {
+  margin: 1rem auto;
+  padding: .5rem 0rem .5rem;
+  color: #fff; 
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  hyphens: auto;
+  background-image: linear-gradient(to top, #18163f 0%, #160e41 100%);
+}
+
+.u-info-p {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.u-num {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.ug-1 {
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.ug-2 {
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ug-3 {
+  background: #41295a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ug-4 {
+  background: #5C258D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.d-logout-btn {
+  padding: auto;
+  color: #fff;
+}
+
+.d-logout-btn:hover {
+  color: #fff;  
+}
+
+.d-sep {
+  color: #fff;
+  font-weight: lighter;
+  margin: 1em .5rem 0;
+}
+
+.d-sep-2 {
+  color: #fff;
+  font-weight: lighter;
+  margin: 1.6em -1.6rem -1.5em;
+}
+
+/* Carrito */
+
+.table {
+  color: #fff !important;
+  background-color: #160f40;
+}
+
+.table > thead {
+  background-color: #18163f;
+}
+
+.table > thead > tr > th {
+  text-align: center;
+  border: #160e41 !important;
+
+}
+
+.table > tbody > tr > td {
+  border: #16095d !important;
+}
+
+.td-img {
+  text-align: center;
+}
+
+/* Page Not Found */
+
+.nf-title {
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 10rem;
+}
+
+.nf-info {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+
+/* ESTILOS Amplistein*/
+
+.amplistein-container {
+  display: flex;
+}
+
+.amplistein_div_padre_puntillas {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 336px; height: 10rem; background-color: black; position: relative; display: flex; border-radius: 1rem; overflow: hidden;
+  margin: 1rem;
+}
+.amplistein_div_imagen1_puntillas{
+  position: absolute; height: 100%; width: auto; max-width: 100%; max-height: 100%;
+}
+.amplistein_div_recuadro1_puntillas, .amplistein_div_recuadro1_puntillas {
+  width: 50%; height: 100%; position: relative; z-index: 9; background-color: rgba(221, 221, 221, 0);
+}
+.amplistein_div_recuadro1_puntillas {
+width: 50%; height: 100%; position: relative; z-index: 9; display: flex; justify-content: center; align-items: center;
+}
+.amplistein_div_recuadro1_puntillas p, span {
+  color: rgb(229, 224, 230); font-size: xx-large; text-align: center; z-index: 99;
+}
+.amplistein_div_recuadro2_puntillas {
+  width: 50%; height: 100%; position: relative; z-index: 9; display: flex; justify-content: center; align-items: center;
+  color: rgb(229, 224, 230); font-size: small; text-align: center; z-index: 99;
+}
+.amplistein_div_recuadro2_puntillas p, span {
+  color: rgb(229, 224, 230); font-size: small; text-align: center; z-index: 99; text-align: left;
+}
+.amplistein_div_recuadro2_puntillas a {
+  color: rgb(229, 224, 230); text-align: center; z-index: 99; text-align: left; font-weight: bolder; font-size: medium;
+}
+
+/* ESTILOS Amplistein*/
+
+
+
+/* Smart Pot */
+
+.info-card {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/* Ardbank */
+
+.total {
+  font-size: 4rem;
+}
+
+.fecha {
+  font-size: 3rem;
+}
+  
+
+/* Dispenser */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.dispenser-card {
+  border-radius: 10px;
+  background-color: #291364cb;
+}
+
+.dispenser-img-card {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.dispenser-title {
+  font-family: 'Red Hat Display';
+  color: white;
+  font-size: 3rem;
+}
+
+.dispenser-title2 {
+  font-family: 'Red Hat Display';
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.dispenser-subtitle {
+  font-family: 'Red Hat Display';
+  color: #9A64D8;
+  font-size: 2rem;
+}
+
+.dispenser-text {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.dispenser-text2 {
+  font-family: 'Cabin', sans-serif;
+  color: #9A64D8;
+  font-size: 1rem;
+}
+
+.dispenser-text3 {
+  font-family: 'Cabin', sans-serif;
+  color: #9A64D8;
+  font-size: 9rem;
+  text-align: center;
+}
+
+.dispenser-btn {
+  background-color: #541799 !important;
+  border: none;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  margin-left: .5rem;
+}
+
+.dispenser-btn:hover {
+  background-color: #350e63;
+  border: none;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
+.dispenser-table {
+  text-align: center;
+  color: white;
+  border-radius: 10px !important;
+  font-family: 'Cabin', sans-serif;
+  border: none !important;
+}
+
+.dispenser-tablecont {
+  overflow-y: scroll;
+  width: 100%;
+  height: 30vh !important;
+}
+
+.dispenser-row {
+  color: #9A64D8;
+}
+
+@media only screen and (max-width: 768px) {
+  .dispenser-title {
+      font-size: 3rem;
+  }
+  .dispenser-subtitle {
+      font-size: 1.8rem;
+  }
+  .dispenser-btn {
+      margin-top: 0 !important;
+      margin-bottom: 1rem;
+  }
+  .dispenser-tablecont {
+      height: 34vh !important;
+  }
+}
+
+/* Stinger Car */
+
+.stinger-card {
+  border-radius: 10px;
+  background-color: #291364cb;
+}
+
+.stinger-img-card {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.card-comprars {
+  border-radius: 10px;
+  background-color: #291364cb;
+  color: #ffff
+}
+
+.stinger-title {
+  font-family: 'Red Hat Display';
+  color: white;
+  font-size: 3.5rem;
+}
+
+.stinger-title2 {
+  font-family: 'Red Hat Display';
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.stinger-subtitle {
+  font-family: 'Red Hat Display';
+  color: #9A64D8;
+  font-size: 2rem;
+}
+
+.stinger-text {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.stinger-text2 {
+  font-family: 'Cabin', sans-serif;
+  color: #9A64D8;
+  font-size: 1rem;
+}
+
+.stinger-text3 {
+  font-family: 'Cabin', sans-serif;
+  color: #9A64D8;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.stinger-btn {
+  background-color: #541799;
+  border: none;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .stinger-title {
+      font-size: 2.5rem;
+  }
+  .stinger-subtitle {
+      font-size: 1.8rem;
+  }
+}
